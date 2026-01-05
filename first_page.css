@@ -40,11 +40,16 @@ body{
     color: white;
     text-align: right;
     font-size: 30px;
-    justify-content: right;
     right: 150px;
-    padding-left: 30px;
+    padding:0px;
+    /* padding-left: 30px; */
     /* right: 80%; */
 
+}
+
+.nav ul li{
+    display: inline-block;
+    top: 100px;
 }
 
 .body-image img{
@@ -55,6 +60,8 @@ body{
     position: relative;
     padding: 0;
     margin: 0%;
+    bottom: 30px;
+    
     /* padding-top: 10%; */
 }
 
@@ -96,6 +103,7 @@ body{
     border-radius: 12px;
     /* background-color: #2a2219; */
     color: #5b4d3c;
+    padding: 30px;
 }
 
 .text2{
@@ -104,4 +112,5 @@ body{
     border: 2px dotted #5b4d3c ;
     border-radius: 12px;
     color: #5b4d3c;
+    padding: 30px;
 }
