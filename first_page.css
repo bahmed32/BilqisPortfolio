@@ -1,4 +1,10 @@
 
+
+html{
+    margin:0;
+    padding:0;
+}
+
 .nav {
     background-color: rgb(237, 237, 237);
     margin: 0;
@@ -7,9 +13,30 @@
 
 .nav ul {
     list-style-type: none;
-    
+
     margin: 0;
     padding: 0;
     overflow: hidden;
+
+}
+
+.body-image img{
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    margin: 0%;
+    /* padding-top: 10%; */
+}
+
+.title{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 40%;
+    color: white;
+    transform: translate(-50%, -50%);
 
 }
