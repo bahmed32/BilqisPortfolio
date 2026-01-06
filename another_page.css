@@ -15,8 +15,7 @@ body{
     margin:0px;
     padding:0px;
     border:0px;
-    background-image: local("images/logp2.jpg");
-    background-repeat: repeat-x;
+    background-color: #d4cfc9;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff, #d4cfc9 ;
     display: block;
@@ -64,25 +63,29 @@ body{
 
 
 .contact{
-    padding: 10%;
-    height: 200px;
-    background-color: #d4cfc9;
-    opacity: 0.9;
-    border: #d4cfc9 solid 5px;
+    position: absolute;
+    left: 40%;
+    margin: 0;
+    height: 300px;
+    width: 400px;
+    background-color: #ffffff;
+    border: #392308 dotted 5px;
     border-radius: 15px;
     text-align: center;
+    top: 40%;
 }
 
 
 .contact ul{
     text-align: center;
     list-style-type: none;
-    position: relative;
+    position: absolute;
     color: #5b4d3c;
     /* text-align: left; */
     font-size: 20px;
-    left: 10%;
-    padding: 0px;
-    padding-left: 0px;
-    top: 50px;
+    top: 20%;
+    right: 15%;
 }
+
+
+
