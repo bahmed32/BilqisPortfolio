@@ -55,13 +55,28 @@ For the image, you can use any .jpg or .png file. -->
 <body>
     <nav class="nav">
         <div class="logo"> 
-            <img class="logo-image"src="images/logo2.png" alt="logo image"  href="first_page.html"/>
-        </div>
+            <img
+                class="logo-image"
+                src="images/logo2.png"
+                alt="logo image"
+                usemap="#workmap"
+            >
 
+            <map name="workmap">
+                <area
+                    shape="rect"
+                    coords="0,0,100,100"
+                    href="first_page.html"
+                    alt="logo"
+                >
+            </map>
+        </div>
         <ul>
             <li><a href="first_page.html">Welcome</a></li> 
-            <li></li><a href="another_page.html">Contact</a></li>   
-
+            <li class="tooltip-container">
+                <a class="next-page" href="another_page.html">Contact</a>
+                <span class="tooltip-text">This leads you to another page</span>
+            </li>
         </ul>
     </nav>
 
@@ -71,12 +86,13 @@ For the image, you can use any .jpg or .png file. -->
     
     <h1 class="title"> Hello, My name is Bilqis</h1>
     <h2 class="sub-title"> I am learning sofware development</h2>
-    <div class="contact-button" > Contact Me 
+    <div class="contact-button" > Contact Me
         <span class="tool_tip">Bilqis.ali32@gmail.com</span>
     </div> 
-    <p class="text1"> I enjoy intuitive design where I get to focus on creating experiences that feel simple, thoughtful, and user-first. I like turning complex ideas into clean, accessible interfaces that are easy to navigate and visually engaging. Whether I’m working on the frontend or collaborating on functionality, I care about how users move through a product and how each interaction feels purposeful and seamless. </p>
-    <p class=" text2"> I’m passionate about crafting designs that not only look good but also solve real problems for users. I believe that great design is about more than just aesthetics, it’s about creating meaningful connections between people and technology. I’m always eager to learn new skills, explore emerging trends, and push the boundaries of what’s possible in digital design. </p>
-
+    <div class="text-container">
+        <p class="text1"> I enjoy intuitive design where I get to focus on creating experiences that feel simple, thoughtful, and user-first. I like turning complex ideas into clean, accessible interfaces that are easy to navigate and visually engaging. Whether I’m working on the frontend or collaborating on functionality, I care about how users move through a product and how each interaction feels purposeful and seamless. </p>
+        <p class=" text2"> I’m passionate about crafting designs that not only look good but also solve real problems for users. I believe that great design is about more than just aesthetics, it’s about creating meaningful connections between people and technology. I’m always eager to learn new skills, explore emerging trends, and push the boundaries of what’s possible in digital design. </p>
+</div>
 
 </body>
 
