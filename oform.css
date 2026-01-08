@@ -14,14 +14,16 @@ h1{
 
 .oform-container {
     background-color: #ffffff;
-    /* max-width: 600px; */
-    margin: 50px auto;
-    padding: 20px;
+    width: 40%; 
+    margin: auto;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(38, 26, 9, 0.1);
     display: flex;
     flex-direction: column;
     gap: 1px;
+    /* align-items: stretch; */
+
     
 }
 
@@ -53,4 +55,16 @@ input:valid:not(:placeholder-shown) {
 
 input:invalid:not(:placeholder-shown) {
     background-color: rgb(198, 147, 150);
+}
+
+.buttons{
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin: auto;
+}
+
+#contact{
+    align-items: flex-start;
 }

@@ -29,6 +29,7 @@
             <input type="text" id="postal" name="postal" placeholder="Enter your postal code" pattern="^[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z][ ]?\d[ABCEGHJ-NPRSTV-Z]\d$" required><br>
             <label for="phone"> Phone:</label><br>
             <input type="text" id="phone" name ="phone" placeholder="Enter your phone" pattern="^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$" required><br> <br> 
+            <label type="role"> I am a:</label><br>
             <select id="role" name="role" required>
                 <option value="" disabled selected>Select your role</option>
                 <option value="student">Student</option>
@@ -40,8 +41,10 @@
             <input type="checkbox" id="contact" name="contact" value="yes" required>
             <br><br>
             <input type="textarea" id="comments" name="comments" placeholder="Enter your comments here" required></input><br><br>
-            <input type="submit" value="Submit Details" required></input><br><br>
-            <input type="reset" value="Cancel Details"></input><br>
+            <div class="buttons">
+                <input type="submit" value="Submit Details" required></input><br><br>
+                <input type="reset" value="Cancel Details"></input><br>
+             </div>
             
         </div>
 
