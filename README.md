@@ -18,3 +18,9 @@ To upload document to website:
 5. Click Import 
 6. A setting will pop-up. Do not select anything 
 7. Click deploy. Your Repo is now uploaded.
+
+
+
+
+References
+CottonBro Studio. (n.d.). Person in gray long sleeve shirt using MacBook Pro [Photograph]. Pexels. https://www.pexels.com/photo/person-in-gray-long-sleeve-shirt-using-macbook-pro-4626347/

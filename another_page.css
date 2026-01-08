@@ -26,6 +26,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff, #d4cfc9 ;
     display: block;
+    max-width: 1440px;
+    min-width: 500px;
 }
 .nav {
     background-color: #ffffff;
@@ -68,10 +70,10 @@ body{
 
 .contact{
     position: absolute;
-    left: 40%;
+    left: 30%;
     margin: 0;
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 40%;
     background-color: #ffffff;
     border: #392308 dotted 5px;
     border-radius: 15px;
@@ -81,14 +83,17 @@ body{
 
 
 .contact ul{
-    text-align: center;
     list-style-type: none;
-    position: absolute;
     color: #5b4d3c;
     font-size: 20px;
-    top: 20%;
-    right: 15%;
 }
 
 
 
+.my-logo {
+    float: left;
+    height: 100px; 
+    display: block; 
+    margin: 10px 10px 0px;
+    text-align: center;
+}
