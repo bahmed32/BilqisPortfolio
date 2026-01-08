@@ -10,8 +10,32 @@
     <title>Contact Me</title> 
 
    <body>
+    <nav class="nav">
+        <div class="logo"> 
+            <img
+                class="logo-image"
+                src="images/logo2.png"
+                alt="logo image"
+                usemap="#workmap"
+            >
 
-    <form >
+            <map name="workmap">
+                <area
+                    shape="rect"
+                    coords="0,0,100,100"
+                    href="first_page.html"
+                    alt="logo"
+                >
+            </map>
+        </div>
+        <ul>
+            <li><a href="first_page.html"> Welcome</a></li>
+            <li><a href="another_page.html"> Contact</a></li>
+        </ul>
+        </nav>
+
+
+    <form action=“done.html” method=“post” >
         <h1> Contact Me</h1>
         <div class="oform-container">
 
@@ -26,9 +50,9 @@
             <label for="province"> Province:</label><br>
             <input type="text" id="province" name="province" placeholder="Enter your province" required ><br>
             <label for="postal"> Postal Code:</label><br>
-            <input type="text" id="postal" name="postal" placeholder="Enter your postal code" pattern="^[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z][ ]?\d[ABCEGHJ-NPRSTV-Z]\d$" required><br>
+            <input type="text" id="poscode" name="poscode" placeholder="Enter your postal code" pattern="^[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z][ ]?\d[ABCEGHJ-NPRSTV-Z]\d$" required><br>
             <label for="phone"> Phone:</label><br>
-            <input type="text" id="phone" name ="phone" placeholder="Enter your phone" pattern="^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$" required><br> <br> 
+            <input type="tel" id="phone" name="phone" placeholder="Enter your number ex: 123-123-1234" pattern="\d{3}-\d{3}-\d{4}" required><br>
             <label type="role"> I am a:</label><br>
             <select id="role" name="role" required>
                 <option value="" disabled selected>Select your role</option>
@@ -37,7 +61,7 @@
                 <option value="dancer">Dancer</option>
                 <option value="performer">Performer</option>
             </select><br>
-            <label for="contact">Contact me please</label>
+            <label for="contact">Contact me:</label>
             <input type="checkbox" id="contact" name="contact" value="yes" required>
             <br><br>
             <input type="textarea" id="comments" name="comments" placeholder="Enter your comments here" required></input><br><br>

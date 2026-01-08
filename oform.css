@@ -7,6 +7,44 @@ body{
     padding: 0;
 }
 
+.nav {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+}
+
+.logo-image{
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+}
+
+.nav ul {
+    list-style-type: none;
+    list-style: none;
+    position: relative;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    right: 10%;
+    padding: 0px;
+    padding-left: 0px;
+    bottom: 100px;
+
+
+}
+
+.nav ul li{
+    display: inline-block;
+    top: 100px;
+    padding-left: 30px;
+    color: #5b4d3c;
+}
+
 h1{
     color: #ffffff;
     text-align: center;
@@ -58,7 +96,6 @@ input:invalid:not(:placeholder-shown) {
 }
 
 .buttons{
-    /* display: flex; */
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
