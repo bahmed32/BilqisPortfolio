@@ -42,7 +42,7 @@ January 8th, 2025 -->
         </nav>
 
 
-    <form action=“done.html” method=“post” >
+    <form name="cOrder"action=“done.html” method=“post” >
         <h1> Contact Me</h1>
         <div class="oform-container">
 
@@ -71,7 +71,8 @@ January 8th, 2025 -->
             <label for="contact">Contact me</label>
             <input type="checkbox" id="contact" name="contact" value="yes" required>
             <br><br>
-            <input type="textarea" id="comments" name="comments" placeholder="Enter your comments here" required></input><br><br>
+            <label for="comments">Leave a</label>
+            <textarea id="comments" name="comments" placeholder="Enter your comments here" rows="6" cols="50" required></textarea><br><br>
             <div class="buttons">
                 <input type="submit" value="Submit Details" required></input><br><br>
                 <input type="reset" value="Cancel Details"></input><br>

@@ -98,3 +98,8 @@ input:invalid:not(:placeholder-shown) {
 #contact{
     align-items: flex-start;
 }
+
+input #comments {
+    height: 400px;
+
+}
