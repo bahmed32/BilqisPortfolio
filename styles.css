@@ -2,23 +2,72 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 
 
 }
-h1 {
+.nav {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.logo-image {
+    height: 80px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav ul li a {
+    display: block;
+    color: #5b4d3c;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #cccccc;
+}
+
+h1 {
     text-align: center;
 }
 
-.birthday{
+video{
 
     margin: auto;
-    width: 50%;
-    height: 40%;
+    width: 80%; 
+    height: 80%; 
 
 }
 
 audio{
     margin: auto;
-    padding: 10%;
+    padding: 5%;
 }
+
+
+@media screen and (max-width: 640px){
+    video{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    video{
+        width: 300px;
+    }
+}
+

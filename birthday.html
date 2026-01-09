@@ -3,23 +3,42 @@
 <html>
 
 <head>
-    <meta viewport="widt=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Birtday</title>
     <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-    <nav>
+    <nav class="nav">
+        <div class="logo"> 
+            <img
+                class="logo-image"
+                src="images/logo2.png"
+                alt="logo image"
+                usemap="#workmap"
+            >
 
+            <map name="workmap">
+                <area
+                    shape="rect"
+                    coords="0,0,100,100"
+                    href="first_page.html"
+                    alt="logo"
+                >
+            </map>
+        </div>
+        <ul>
+            <li><a href="first_page.html">Welcome</a></li> 
+            <li><a href="another_page.html">Information</a></li>
+            <li><a href="form.html"> Contact Me </a></li>
+            <li><a href="birthday.html">Birthday</a></li>
+        </ul>
     </nav>
     <H1> Happy Birthday</H1>
-    <div class="birthday"></div> 
-        <video>
+        <video controls>
             <source src="videos/birthday.mp4" type="video/mp4">
         </video>
-        
-    </div>
     <audio controls>
         <source src="audio/party_horn.mp3" type="audio/mp3">
     </audio>
