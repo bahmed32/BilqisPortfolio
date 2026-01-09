@@ -1,3 +1,15 @@
+/* <!-- 
+Assignment 4: Making a Website Portable and Using Multimedia (5%)
+Bilqis Ahmed 
+Thompson Rivers University 
+Comp 2681 
+T00774011
+Musfiq Rahman
+January 8th, 2025 --> */
+
+/* This style sheet contains the common styles for the website brthday page and is responsive to fit multiple screens */
+
+
 
 body{
     display: flex;
