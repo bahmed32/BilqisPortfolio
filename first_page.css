@@ -28,41 +28,38 @@ body{
 }
 
 .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    height: 100px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
-.logo-image{
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 30px;
-    bottom: 15px;
+.logo-image {
+    height: 80px;
 }
 
 .nav ul {
     list-style-type: none;
-    list-style: none;
-    position: relative;
-    color: white;
-    text-align: right;
-    font-size: 20px;
-    right: 10%;
-    padding: 0px;
-    padding-left: 0px;
-    bottom: 100px;
-
-
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-.nav ul li{
-    display: inline-block;
-    top: 100px;
-    padding-left: 30px;
+
+
+.nav ul li a {
+    display: block;
     color: #5b4d3c;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #cccccc;
 }
 
 .body-image img{
