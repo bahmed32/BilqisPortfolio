@@ -55,6 +55,7 @@ January 5th, 2025 -->
     
     <h1 class="title"> Hello, My name is Bilqis</h1>
     <h2 class="sub-title"> I am learning sofware development</h2>
+    <p id="date"></p>
     <div class="contact-button" > Contact Me
         <span class="tool-tip">Bilqis.ali32@gmail.com</span>
     </div> 
@@ -62,6 +63,33 @@ January 5th, 2025 -->
         <p class="text1"> I enjoy intuitive design where I get to focus on creating experiences that feel simple, thoughtful, and user-first. I like turning complex ideas into clean, accessible interfaces that are easy to navigate and visually engaging. Whether I’m working on the frontend or collaborating on functionality, I care about how users move through a product and how each interaction feels purposeful and seamless. </p>
         <p class=" text2"> I’m passionate about crafting designs that not only look good but also solve real problems for users. I believe that great design is about more than just aesthetics, it’s about creating meaningful connections between people and technology. I’m always eager to learn new skills, explore emerging trends, and push the boundaries of what’s possible in digital design. </p>
 </div>
+
+<script>
+
+    function getRandomColor() {
+            const letters = "0123456789ABCDEF";
+            let color = "#";
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        setInterval(() => {
+            document.body.style.backgroundColor = getRandomColor();
+        }, 1000);
+
+        
+</script>
+
+
+<script>
+    let myVar = setInterval(myTimer ,1000);
+    function myTimer() {
+      const d = new Date();
+      document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+    }
+</script>
 
 </body>
 
