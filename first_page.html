@@ -67,20 +67,16 @@ January 5th, 2025 -->
 
 <script>
 
-    function getRandomColor() {
-            const letters = "0123456789ABCDEF";
-            let color = "#";
-            for (let i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
-            }
-            return color;
-        }
 
-        setInterval(() => {
-            document.body.style.backgroundColor = getRandomColor();
-        }, 3000);
+    const codes = ["#F5F0E6", "#EDE4D3", "#E6D3B1","#DCC9A1", "#CBB89D", "#D8CFC4" ];
 
-        
+
+    setInterval(() => {
+        const randomIndex = Math.floor(Math.random() * codes.length);
+        document.body.style.backgroundColor = codes[randomIndex];
+    }, 3000);
+
+      
 </script>
  
 

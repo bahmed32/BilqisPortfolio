@@ -171,3 +171,9 @@ body{
     visibility: visible;
     opacity: 1;
 }
+
+#date{
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+}
